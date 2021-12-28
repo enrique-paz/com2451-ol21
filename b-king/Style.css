@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+    margin:0;
+	padding:0;
+	font-weight:normal;
+	font-size:100%;
+}
+
+header{
+	text-align:center;
+	padding-top:75px;
+	padding-bottom:25px;
+	background-size:contain;	
+}
+
+header img{
+	width:300px;
+	height:250px;
+	padding-top:60px;
+}
+
+
+h1{
+	font-size:80px;
+	font-family:"Great Vibes";
+	line-height:5px;
+	color:#FBC802;
+	text-align:center;
+	padding:60px;
+}
+
+h2{
+	text-align:center;
+	padding-left:50px;
+	font-size:12px;
+}
+
+main{
+	text-align:center;
+	padding-top:60px;
+	padding-bottom:60px;
+	background-image:url("Images/main-bkg.jpg");
+	background-size:cover;
+	width:100%;
+}
+
+main p{
+	text-align:center;
+	font-size:12px;
+	font-family:"Avenir Next Medium";
+	color:white;
+	width:536px;
+	margin-left:auto;
+	margin-right:auto;
+	text-transform:uppercase;
+}
+					
+nav{
+	margin-top:5px;
+}
+
+nav a{
+	margin-top:5px;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:black;
+	font-size:15px;
+	padding:5px;
+	font-family:"Avenir Next Medium";
+}
+
+nav a:hover{
+	color:#fbc802;	
+}
+
+nav li{
+	display:inline-block;
+	padding-left:15px;
+	padding-right:15px;
+	border-right-style:hidden;
+	border-right-width:1px;
+	border-right-color:#fbc802;
+}
+
+section{
+	width:960px;
+	height:450px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"Avenir Next Demi Bold";
+	text-align:center;
+	font-size:12px;
+}
+
+section div{
+    width:250px;
+    display:inline-block;
+    vertical-align:baseline;
+    padding:30px;
+	padding-top:5px;
+}
+
+section p{
+	padding-left:50px;
+	font-family:"Avenir Next Italic";
+	font-style: italic;
+	padding-bottom:15px;
+}
+
+section div img{
+	width:300px;
+	height:200px;
+}
+
+#Lunch{
+	background-image:url("Images/main-bkg.jpg");
+	background-size:cover;
+	width:100%;
+	color:white;
+}
+
+footer{
+	height:100px;
+	text-align:center;
+	padding-left:50px;
+	background-image:url("Images/footer image.jpg");
+	background-size:cover;
+	padding:40px;
+}
+
+footer div{
+    display:inline-block;
+    vertical-align:baseline;
+	align-content:center;
+	padding-top:15px;
+}
+
+footer img{
+	width:35px;
+	height:35px;
+}
+
+footer p{
+	font-family:"Avenir Next Demi Bold";
+	font-size:12px;
+}

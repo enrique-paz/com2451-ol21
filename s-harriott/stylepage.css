@@ -1,0 +1,64 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family:Crimson;
+     background-color:: ;
+     }
+
+html{
+     background-color:#fae1dd;
+}
+
+nav{
+  background-color:#e8a598;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+     border-radius: 10px;
+}
+ .nav-links{
+      flex: 1;
+      text-align: right;
+      color: white;
+}
+.nav-links ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 8px 12px;
+      position: relative;
+      text-decoration-line: none;
+ }
+ .three{
+     font-family: Crimson;
+     color: floralwhite;
+ }
+ /*home section*/
+ .home{
+     display: flex;
+     background: url("images/me3.jpg") no-repeat center;
+     height:100%;
+     min-height: 600px;
+     font-family: Crimson;
+ }
+ .home .max-width{
+     margin: auto 0 auto 40px;
+ }
+ .home .home-content .one{
+     font-size: 30px;
+     color: floralwhite;
+
+ }
+  .home .home-content .two{
+     font-size: 60px;
+     color: floralwhite;
+      font-weight: 500;
+      margin-left: -3px;
+      margin: 5px 0;
+ }
+footer{
+     background-color:#e8a598; 
+     padding:20px ;
+     text-align: center;
+     color:white;
+}

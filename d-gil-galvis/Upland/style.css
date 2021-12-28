@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin:0px;
+	padding:0px;
+	font-size:100%;
+	font-weight:normal; 
+}
+nav li {
+	display:inline-block;
+}
+nav a {
+	font-size:50px;
+	color:white;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-decoration:none; 
+	padding:15px; 
+	display:block;
+	transition-property:background-color;
+	transition-duration:.9s; 
+}
+nav a:hover {
+	background-color:white;
+	color:black;
+}
+header {
+	background-color:black;
+	color:white;
+	font-family:'Zen Old Mincho', serif;
+	font-size:60px;
+	padding-left:36px;
+	padding-bottom:25PX;
+}
+#head div{
+	display:inline-block;
+}
+.name{
+	width:256px;
+	padding-left:83px; 
+}
+.route{
+	width:876px;
+	padding-left:163px; 
+}
+main {
+	background-image:url("Images/main_bkg.jpg");
+	padding-top:154px;
+	height:343px; 
+	background-size:cover; 
+}
+main p{
+	color:white;
+	font-family:'Lato', sans-serif; 
+	font-size:26px;
+	line-height:31px;
+	text-align:left;
+	width:538px;
+	padding-left:170px;
+}
+#rqone{
+	width:1440px;
+	height:134px;
+	background-color:black;
+}
+#brunch{
+	background:#3b435b;
+	padding-top:53px;
+	height:671px;
+	text-align:center; 
+}
+#brunch h3{
+	font-size:33px;
+	font-family:'Lato', sans-serif;
+	color:#d7a182;
+}
+#brunch p{
+	color:#d7a182;
+	font-size:25px;
+	font-family:'Lato', sans-serif;
+	font-style:italic; 
+}
+#brunch div {
+	display:inline-block;
+	vertical-align:top;
+	padding-top:50px;
+}
+.left {
+	width:483px; 
+}
+.right {
+	width:483px; 
+}
+h2{
+	color:#d7a182;
+	font-family:'Zen Old Mincho', serif;
+	font-size:85px;
+	text-align:center;
+}
+#lunch{
+	background-image:url("Images/pizza.jpg");
+	padding-top:75px;
+	height:691px;
+	text-align:center;
+	background-size:cover;  
+}
+h5{
+	color:white;
+	font-family:'Zen Old Mincho', serif;
+	font-size:85px;
+	text-align:center;
+}
+#lunch h3{
+	font-size:33px;
+	font-family:'Lato', sans-serif;
+	color:white;
+}
+#lunch p{
+	color:white;
+	font-size:25px;
+	font-family:'Lato', sans-serif;
+	font-style:italic; 
+}
+#lunch div {
+	display:inline-block;
+	vertical-align:top; 
+	padding-top:50px; 
+}
+#dessert{
+	background:#3b435b;
+	padding-top:75px;
+	height:691px;
+	text-align:center;
+}
+#dessert h3{
+	font-size:33px;
+	font-family:'Lato', sans-serif;
+	color:#d7a182;
+}
+#dessert p{
+	color:#d7a182;
+	font-size:25px;
+	font-family:'Lato', sans-serif;
+	font-style:italic;
+}
+#dessert div {
+	display:inline-block;
+	vertical-align:top; 
+	padding-top:50px 
+}
+footer{
+	background-color:black;
+	color:white;
+}
+h4{
+	font-size:50px;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+footer p{
+	font-size:24px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	line-height:30px; 
+}
+#info div{
+	display:inline-block;
+	vertical-align:top;
+	padding-top:49px;
+	height:206px;
+}
+#info {
+	text-align:center;
+}
+.loc {
+	width:188px; 
+	padding-right:200px 
+}
+.hour {
+	width:229px;
+}
+.con {
+	width:165;
+	padding-left:200px; 
+}
+
+
+
